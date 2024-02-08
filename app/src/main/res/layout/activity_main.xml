@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="Ti Dmitriy!"
+                android:textColor="#fff"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="Welcome to the website of Ti Dmitriy"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                tools:src="@drawable/cat" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="View my brief Bio"
+                android:textColor="#888fff"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="View my Profile"
+                android:textColor="#fff000"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="Open Camera"
+                android:textColor="#f000"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
